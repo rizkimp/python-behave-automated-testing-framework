@@ -1,0 +1,13 @@
+class locator(object):
+    landing         = "/html/body/div[1]/div/span/div/div[1]/div/div/div[1]"
+    slide           = "/html/body/div[1]/div/span/div/div[2]"
+    button_login1   = "/html/body/div[1]/div/header/div[3]/div/button[2]"
+    form_login      = "/html/body/div[1]/div/header/div[3]/div/span[2]/form"
+    form_username   = "/html/body/div[1]/div/header/div[3]/div/span[2]/form/div[2]/div[1]/input"
+    form_password   = "/html/body/div[1]/div/header/div[3]/div/span[2]/form/div[2]/div[2]/input"
+    button_login2   = "/html/body/div[1]/div/header/div[3]/div/span[2]/form/div[4]/button"
+    avatar          = "/html/body/div[1]/div/header/div[3]/div/button[1]/div"
+    form_avatar     = "/html/body/div[1]/div/header/div[3]/div/span[2]/div"
+    button_logout   = "/html/body/div[1]/div/header/div[3]/div/span[2]/div/div/div[2]/div"
+    popup_logout    = "/html/body/div[2]/div/div"
+    yes_logout      = "/html/body/div[2]/div/div/div[2]/button[2]"
