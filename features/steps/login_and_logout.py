@@ -23,6 +23,7 @@ def step_impl(context):
 def step_impl(context):
     sleep(5)
     context.browser.find_element(By.XPATH,locator.avatar)
+    sleep(5)
     context.browser.find_element(By.XPATH,locator.slide)
 
 @when(u'logout')
