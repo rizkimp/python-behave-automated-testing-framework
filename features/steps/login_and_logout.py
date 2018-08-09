@@ -7,6 +7,7 @@ from time import sleep
 @given(u'go to homepage arena')
 def step_impl(context):
     context.browser.get('http://arena.jog.ojodowo.com/')
+    sleep(5)
     context.browser.find_element(By.XPATH,locator.landing)
     context.browser.find_element(By.XPATH,locator.slide)
 
