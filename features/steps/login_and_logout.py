@@ -21,6 +21,7 @@ def step_impl(context):
 
 @then(u'direct to homepage users')
 def step_impl(context):
+    sleep(5)
     context.browser.find_element(By.XPATH,locator.avatar)
     context.browser.find_element(By.XPATH,locator.slide)
 
@@ -34,5 +35,6 @@ def step_impl(context):
 
 @then(u'direct to homepage arena')
 def step_impl(context):
+    sleep(5)
     context.browser.find_element(By.XPATH,locator.landing)
     context.browser.find_element(By.XPATH,locator.slide)
