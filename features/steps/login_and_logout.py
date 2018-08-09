@@ -31,6 +31,7 @@ def step_impl(context):
     context.browser.find_element(By.XPATH,locator.avatar).click()
     context.browser.find_element(By.XPATH,locator.form_avatar)
     context.browser.find_element(By.XPATH,locator.button_logout).click()
+    sleep(5)
     context.browser.find_element(By.XPATH,locator.popup_logout)
     context.browser.find_element(By.XPATH,locator.yes_logout).click()
 
