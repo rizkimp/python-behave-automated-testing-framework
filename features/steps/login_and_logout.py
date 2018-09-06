@@ -6,7 +6,7 @@ from time import sleep
 
 @given(u'go to homepage arena')
 def step_impl(context):
-    context.browser.get('https://arena.id/')
+    context.browser.get('https://arena.jog.ojodowo.com')
     sleep(5)
     context.browser.find_element(By.XPATH,locator.landing)
     context.browser.find_element(By.XPATH,locator.slide)
@@ -15,8 +15,8 @@ def step_impl(context):
 def step_impl(context):
     context.browser.find_element(By.XPATH,locator.button_login1).click()
     context.browser.find_element(By.XPATH,locator.form_login)
-    context.browser.find_element(By.XPATH,locator.form_username).send_keys('rizkimp')
-    context.browser.find_element(By.XPATH,locator.form_password).send_keys('rizkimahaputra')
+    context.browser.find_element(By.XPATH,locator.form_username).send_keys('richard')
+    context.browser.find_element(By.XPATH,locator.form_password).send_keys('12345678')
     context.browser.find_element(By.XPATH,locator.button_login2).click()
 
 @then(u'direct to homepage users')
